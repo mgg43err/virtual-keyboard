@@ -1,0 +1,58 @@
+@import url("./styles/buttons.css");
+@import url("./styles/keyboardcreated.css");
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  background: #f4f4f4;
+}
+.container-keyboard{
+  width: 80%;
+  height: 80vh;
+  background: #bbbbbb;
+}
+.input{
+  background: #ffffffa8;
+  height: 25%;
+  width: 99%;
+  margin: 0 auto;
+  display: block;
+}
+.keyboard__wrapper{
+  height: 22em;
+  margin-top: 0.5em;
+}
+
+.keyRow{
+  width: 760px;
+  height: 43px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1px;
+  margin-bottom: 1px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.keyRow>button{
+  font-size: 14px;
+}
+.keyRow0{
+  grid-template-columns: 0.8fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.93fr;
+}
+
+.keyRow1{
+  grid-template-columns: 1.4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.keyRow2{
+  grid-template-columns: 1.7fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2.3fr;
+}
+.keyRow3{
+  grid-template-columns: 2.3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2.1fr;
+}
+.keyRow4{
+  grid-template-columns: 1fr 1fr 1fr 1fr 6fr 1fr 1fr 1fr 1fr 1fr;
+}
+
