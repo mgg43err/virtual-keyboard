@@ -1,5 +1,6 @@
 import shiftLogic from "./shiftLogic";
 import capsLockLogic from "./capsLockLogic";
+import keyPressLogic from "./keyPressLogic";
 function keyboardLogic() {
   const state = [];
   const keys = document.querySelector("body > div > div");
@@ -21,6 +22,7 @@ function keyboardLogic() {
 
   shiftLogic();
   capsLockLogic();
+  keyPressLogic();
 }
 
 export default keyboardLogic;
